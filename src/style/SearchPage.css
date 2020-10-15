@@ -1,0 +1,80 @@
+.searchPage__header {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPage__top {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.searchPage__header img {
+  height: auto;
+  width: 92px;
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.searchPage__options {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 135px;
+  width: 75vw;
+  max-width: 750px;
+  padding: 20px 0px 5px 0px;
+}
+
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.searchPage__optRight {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchPage__option .MuiSvgIcon-root {
+  margin-right: 2px;
+}
+
+.searchPage__results {
+  margin-left: 135px;
+}
+
+.searchPage__resultsCount {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  max-width: 750px;
+}
+
+.r__displayLink {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.r__title {
+  font-size: 1.5rem;
+  padding: 5px;
+  padding-left: 0;
+  color: white;
+}
+
+.r__snippet {
+  margin-bottom: 40px;
+}
